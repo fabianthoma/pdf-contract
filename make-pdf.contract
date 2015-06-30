@@ -1,0 +1,7 @@
+[Contractor Entry]
+Name=Create PDF
+Icon=document-convert
+Description=Convert to a PDF File
+MimeType=image
+Exec=/usr/share/contractor/make-pdf.sh %F
+X-GNOME-Gettext-Domain=gtk30
