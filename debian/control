@@ -1,0 +1,14 @@
+Source: pdf-contract
+Section: devel
+Priority: optional
+Maintainer: Fabian Thoma <fabian@elementaryos.org>
+Build-Depends: debhelper
+Standards-Version: 3.9.6
+Homepage: https://github.com/fabianthoma/pdf-contract
+
+Package: pdf-contract
+Architecture: any
+Depends: ${misc:Depends}, contractor
+Enhances: contractor
+Description: A Contract to make PDF Files from images
+ Images are sorted by filename and then combined into one PDF file.
